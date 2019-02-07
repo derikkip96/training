@@ -24,3 +24,4 @@ Route::prefix('admin')->group(function() {
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('bootstrap', 'Bootstrap\BootstrapController@index');
